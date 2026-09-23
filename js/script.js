@@ -35,16 +35,16 @@ document.querySelector('#close-form').onclick = () =>{
   accountForm.classList.remove('active');
 };
 
-var swiper = new Swiper(".home-slider", {
+var swiper = typeof Swiper !== "undefined" ? new Swiper(".home-slider", {
   pagination: {
     el: ".swiper-pagination",
     clickable:true,
   },
   loop:true,
   grabCursor:true,
-});
+}) : null;
 
-var swiper = new Swiper(".home-courses-slider", {
+var swiper = typeof Swiper !== "undefined" ? new Swiper(".home-courses-slider", {
   loop:true,
   grabCursor:true,
   spaceBetween: 20,
@@ -59,13 +59,13 @@ var swiper = new Swiper(".home-courses-slider", {
       slidesPerView: 3,
     },
   },
-});
+}) : null;
 
 
 
 
 
-var swiper = new Swiper(".logo-slider", {
+var swiper = typeof Swiper !== "undefined" ? new Swiper(".logo-slider", {
   loop:true,
   grabCursor:true,
   spaceBetween: 20,
@@ -86,7 +86,7 @@ var swiper = new Swiper(".logo-slider", {
       slidesPerView: 5,
     },
   },
-});
+}) : null;
 
 let accordion = document.querySelectorAll('.faq .accordion-container .accordion');
 
