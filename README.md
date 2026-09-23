@@ -1,5 +1,7 @@
 # Ecole-Website
 
+Created by **Erion Nezha**
+
 Faqe interneti për shkollë/kurse — programe, lëndë, regjistrim dhe kontakt. E përshtatur plotësisht në **shqip**.
 
 ## Demo live
@@ -40,7 +42,7 @@ Faqe interneti për shkollë/kurse — programe, lëndë, regjistrim dhe kontakt
 
 ## Licenca
 
-MIT — shiko [LICENSE](LICENSE).
+Të gjitha të drejtat e rezervuara © 2026 Erion Nezha — shiko [LICENSE](LICENSE).
 
 ---
 
@@ -54,4 +56,4 @@ School/courses website — programs, subjects, enrollment and contact. Fully loc
 
 **Tech:** HTML5, CSS3, vanilla JavaScript, Swiper, Font Awesome.
 
-**License:** MIT — see [LICENSE](LICENSE).
+**License:** All rights reserved © 2026 Erion Nezha — see [LICENSE](LICENSE).
