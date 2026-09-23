@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ballina | Erion</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> erion </a>
+
+   <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="index.html">Ballina</a>
+      <a href="about.html">Rreth Nesh</a>
+      <a href="courses.html">Kurset</a>
+      <a href="contact.html">Kontakt</a>
+   </nav>
+
+   <div class="icons">
+      <div id="account-btn" class="fas fa-user"></div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+</header>
+
+<!-- account form section starts  -->
+
+<div class="account-form">
+
+   <div id="close-form" class="fas fa-times"></div>
+
+   <div class="buttons">
+      <span class="btn active login-btn">hyr</span>
+      <span class="btn register-btn">regjistrohu</span>
+   </div>
+
+   <form class="login-form active" action="">
+      <h3>Hyr tani</h3>
+      <input type="email" placeholder="shkruaj email-in tënd" class="box">
+      <input type="password" placeholder="shkruaj fjalëkalimin tënd" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">Më mbaj mend</label>
+         <a href="#">Keni harruar fjalëkalimin?</a>
+      </div>
+      <input type="submit" value="Hyr tani" class="btn">
+   </form>
+
+   <form class="register-form" action="">
+      <h3>Regjistrohu tani</h3>
+      <input type="email" placeholder="shkruaj email-in tënd" class="box">
+      <input type="password" placeholder="shkruaj fjalëkalimin tënd" class="box">
+      <input type="password" placeholder="konfirmo fjalëkalimin tënd" class="box">
+      <input type="submit" value="Regjistrohu tani" class="btn">
+   </form>
+
+</div>
+
+<!-- account form section ends -->
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home">
+
+   <div class="swiper home-slider">
+      
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <h3>Kurset më të mira, këtu i gjen!</h3>
+               <p>Programe moderne mësimi për të gjitha nivelet — zgjidh kursin që të çon më tej.</p>
+               <a href="courses.html" class="btn">Fillo tani</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <h3>Mëso me ritmin tënd</h3>
+               <p>Mësime në klasë dhe online, me materiale gjithmonë të disponueshme për ty.</p>
+               <a href="courses.html" class="btn">Shiko kurset</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <h3>Regjistrohu sot</h3>
+               <p>Plotëso formularin e kontaktit dhe do të të përgjigjemi sa më shpejt.</p>
+               <a href="contact.html" class="btn">Na kontakto</a>
+            </div>
+         </section>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- subjects section starts  -->
+
+<section class="subjects">
+
+   <h1 class="heading">Lëndët tona të njohura</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/subject-icon-1.png" alt="">
+         <h3>Dizajn Grafik</h3>
+         <p>12 module</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-2.png" alt="">
+         <h3>Matematikë</h3>
+         <p>12 module</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-3.png" alt="">
+         <h3>Mësimdhënie</h3>
+         <p>12 module</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-4.png" alt="">
+         <h3>Programim</h3>
+         <p>12 module</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-5.png" alt="">
+         <h3>Shkencë</h3>
+         <p>12 module</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-6.png" alt="">
+         <h3>Inxhinieri</h3>
+         <p>12 module</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- subjects section ends -->
+
+<!-- home courses slider section starts  -->
+
+<section class="home-courses">
+
+   <h1 class="heading"> Kurset tona të njohura </h1>
+
+   <div class="swiper home-courses-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-1.png" alt="">
+               <h3>Zhvillim Web</h3>
+            </div>
+            <div class="content">
+               <h3>Zhvillim Web</h3>
+               <p>Mëso HTML, CSS dhe JavaScript — nga themelet te projektet reale.</p>
+               <a href="courses.html" class="btn">Lexo më shumë</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-2.png" alt="">
+               <h3>Dizajn Grafik</h3>
+            </div>
+            <div class="content">
+               <h3>Dizajn Grafik</h3>
+               <p>Nga parimet e dizajnit te mjetet moderne për punë kreative.</p>
+               <a href="courses.html" class="btn">Lexo më shumë</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-3.png" alt="">
+               <h3>Matematikë</h3>
+            </div>
+            <div class="content">
+               <h3>Matematikë</h3>
+               <p>Koncepte të qarta dhe ushtrime për çdo nivel.</p>
+               <a href="courses.html" class="btn">Lexo më shumë</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-4.png" alt="">
+               <h3>Programim</h3>
+            </div>
+            <div class="content">
+               <h3>Programim</h3>
+               <p>Algoritme dhe logjikë programimi, hap pas hapi.</p>
+               <a href="courses.html" class="btn">Lexo më shumë</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-5.png" alt="">
+               <h3>Shkencë</h3>
+            </div>
+            <div class="content">
+               <h3>Shkencë</h3>
+               <p>Eksperimente dhe teori të shpjeguara thjesht.</p>
+               <a href="courses.html" class="btn">Lexo më shumë</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-6.png" alt="">
+               <h3>Inxhinieri</h3>
+            </div>
+            <div class="content">
+               <h3>Inxhinieri</h3>
+               <p>Bazat e inxhinierisë me shembuj praktikë.</p>
+               <a href="courses.html" class="btn">Lexo më shumë</a>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- home courses slider section ends -->
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3> <i class="fas fa-lightbulb"></i> erion </h3>
+         <p>Shkollë moderne me programe për të gjitha moshat. Mëso me ne, kudo që je.</p>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3>Linke të shpejta</h3>
+         <a href="index.html" class="link">Ballina</a>
+         <a href="about.html" class="link">Rreth Nesh</a>
+         <a href="courses.html" class="link">Kurset</a>
+         <a href="contact.html" class="link">Kontakt</a>
+      </div>
+
+      <div class="box">
+         <h3>Linke të dobishme</h3>
+         <a href="#" class="link">Qendra e ndihmës</a>
+         <a href="#" class="link">Bëj pyetje</a>
+         <a href="#" class="link">Dërgo komente</a>
+         <a href="#" class="link">Politika e privatësisë</a>
+         <a href="#" class="link">Kushtet e përdorimit</a>
+      </div>
+
+      <div class="box">
+         <h3>Buletini</h3>
+         <p>Abonohu për lajmet më të fundit</p>
+         <form action="">
+            <input type="email" name="" placeholder="shkruaj email-in tënd" id="" class="email">
+            <input type="submit" value="Abonohu" class="btn">
+         </form>
+      </div>
+
+   </div>
+
+   <div class="credit"> krijuar nga <span>Erion Nezha</span> | të gjitha të drejtat e rezervuara! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
