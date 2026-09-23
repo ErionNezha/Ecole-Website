@@ -34,8 +34,8 @@ Faqe interneti për shkollë/kurse — programe, lëndë, regjistrim dhe kontakt
 
 ## Kontakti
 
-- Telefoni: +355 699 552 080
-- Email: erjonnezhaa@gmail.com
+- Telefoni: +355 6XX XXX XXX
+- Email: shembull@example.com
 - Adresa: Tiranë, Shqipëri
 
 ## Licenca
